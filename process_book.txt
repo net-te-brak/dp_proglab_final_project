@@ -1,0 +1,51 @@
+date of entry
+	30-11-2022
+what i've worked on
+	setting up project: checking project setup with TA, setting up github, adding necessary files, creating plan for the project
+what problems i encountered
+	figuring out github was a bit of work
+what i learned
+	using github
+which resources did i use
+	tutorial in project module
+
+date of entry
+	01-12-2022
+what i've worked on
+	visualising concept final layout and interactions for project
+	interactive world map visualisation with bokeh: how to do it, looking for world map data
+what problems i encountered
+	unsure how to best visualise data & hard to determine what is doable
+	the curse of open source: many, many different datasets in different formats
+what i learned
+	definition of a choropleth map
+	geoJSON and topoJSON data formats
+	basics of bokeh
+which resources did i use
+	bokeh documentation: linked tutorials in module, mapping geo data, info about geojson data, choropleth
+	https://github.com/topojson/world-atlas
+	https://ourworldindata.org/grapher/share-of-adults-defined-as-obese as inspiration for the project
+
+date of entry
+what i've worked on
+what problems i encountered
+what i learned
+which resources did i use
+
+date of entry
+what i've worked on
+what problems i encountered
+what i learned
+which resources did i use
+
+date of entry
+what i've worked on
+what problems i encountered
+what i learned
+which resources did i use
+
+date of entry
+what i've worked on
+what problems i encountered
+what i learned
+which resources did i use
