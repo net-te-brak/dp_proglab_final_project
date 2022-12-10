@@ -27,16 +27,34 @@ which resources did i use
 	https://ourworldindata.org/grapher/share-of-adults-defined-as-obese as inspiration for the project
 
 date of entry
+	09-12-2022
 what i've worked on
+	cleaning up data, plotting world map, merging data, first steps in creating world map plot
 what problems i encountered
+	country IDs do not overlap, even after conversion, some countries are lost in merged dataset
+	multiple areas are not found in country converter ISO library
+	could not get countries colored in on the world map
 what i learned
+	choropleth mapping, bokeh colorbars, country_converter library
 which resources did i use
+	country_converter documentation
+	bokeh documentation: choropleth, color bar, palettes
+	
 
 date of entry
+	10-12-2022
 what i've worked on
+	coloring countries according to their data
+	creating ways to convert IDs and fully merge needed data, fixing duplicates and false NaN plots
 what problems i encountered
+	some countries falsely showed NaN when plotted, could not figure out where it went wrong, turns out: duplicate rows.
+	dataset too big to load to work with javascript, not proficient enough in JS to figure out a way around
+	Bokeh serve: different way of calling filenames in notebook vs bokeh server, troubleshooting continuous issues with server
 what i learned
+	interactive bokeh slider, setting up bokeh server
 which resources did i use
+	bokeh documentation: JS callbacks, bokeh server gallery and source code
+	lots of stackoverflow for errors i got
 
 date of entry
 what i've worked on
