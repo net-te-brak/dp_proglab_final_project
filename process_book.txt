@@ -23,7 +23,7 @@ what i learned
 	basics of bokeh
 which resources did i use
 	bokeh documentation: linked tutorials in module, mapping geo data, info about geojson data, choropleth
-	https://github.com/topojson/world-atlas
+	github world atlas data, finally got referred to Natural Earth Data
 	https://ourworldindata.org/grapher/share-of-adults-defined-as-obese as inspiration for the project
 
 date of entry
@@ -39,7 +39,6 @@ what i learned
 which resources did i use
 	country_converter documentation
 	bokeh documentation: choropleth, color bar, palettes
-	
 
 date of entry
 	10-12-2022
@@ -51,19 +50,56 @@ what problems i encountered
 	dataset too big to load to work with javascript, not proficient enough in JS to figure out a way around
 	Bokeh serve: different way of calling filenames in notebook vs bokeh server, troubleshooting continuous issues with server
 what i learned
-	interactive bokeh slider, setting up bokeh server
+	updating figure with bokeh slider callbacks - tried this both in JavaScript and Python functions
+	setting up bokeh server
 which resources did i use
 	bokeh documentation: JS callbacks, bokeh server gallery and source code
 	lots of stackoverflow for errors i got
 
 date of entry
+	12-12-2022
 what i've worked on
+	setting up hover tool, creating two plots next to each other (fertility and life expectancy)
+	streamlining the figure: colorbar tick labels, 'highlighting' countries on hover
+	reworked the way data was cleaned before merging, redefined some geodata to split into different countries or be labelled as one
 what problems i encountered
+	plot title is defined in first function, but i cannot recall
+	discovered merging issues: ISO codes were wrong > country data got merged to wrong country, countries in geodata are measured as collective in gapminder and other way around.
 what i learned
+	bokeh hover tool, grid layout for figures
+	editing geopandas data, using the hover tool to discover indices of plotted patches
 which resources did i use
+	geopandas documentation
+	bokeh documentation
+	google maps (for checking country locations on the world map)
 
 date of entry
+	13-12-2022
 what i've worked on
+	selecting regions in map data > double filtering took too much time, decided not to do this
+	graphing values over time for regions
 what problems i encountered
+	map moves *very* slow: replots patches for every year, instead of changing fill color
+	plotting charts: averages per region and global averages over the years
 what i learned
+	plotting interactive graphs, printing paragraphs, interactive legends
+	multiline plots vs plotting individual lines
 which resources did i use
+	bokeh documentation
+	bokeh discourse
+
+date of entry
+	14-12-2022
+what i've worked on
+	calculating and displaying overall growth in regional charts
+	cleaning up and organising code, updating project description
+what problems i encountered
+	not having enough time for everything! there are several things i still want to do to make the plots clearer/faster/better, but i cannot do it all
+	paragraphs are not interactive in bokeh, legends are not multiline
+	having to check process book and not knowing if entries are complete for the day they were written on
+what i learned
+	creating tabs in bokeh
+	a little bit of html printing, though i did not use it
+what resources did i use
+	bokeh documentation
+	style guide
